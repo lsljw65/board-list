@@ -21,7 +21,7 @@ function App() {
     setPostList(result.data)
   }
 
-  return (
+  return ( 
     <div className="App">
       <BrowserRouter>
         <Routes>
@@ -34,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

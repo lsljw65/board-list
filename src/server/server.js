@@ -13,7 +13,7 @@ app.get('/',(req,res)=>{
 
 app.get('/board',(req,res)=>{
     console.log('/board');
-    db.query("select * from db_jumsu.jumsu",(err,data)=>{
+    db.query("select * from middle.jumsu",(err,data)=>{
         if(!err){
             // console.log(data)
             res.send(data)

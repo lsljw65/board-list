@@ -2,9 +2,9 @@
 var mysql=require('mysql');
 const db=mysql.createPool({
     host:'localhost',
-    user:'root',
-    password:'123456',
-    database:'db_jumsu',
+    user:'admin',
+    password:'1234',
+    database:'middle',
     port:3306
 });
 
